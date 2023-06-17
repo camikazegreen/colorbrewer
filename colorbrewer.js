@@ -1,10 +1,10 @@
-var schemeNames = {sequential: ["BuGn","BuPu","GnBu","OrRd","PuBu","PuBuGn","PuRd","RdPu","YlGn","YlGnBu","YlOrBr","YlOrRd"],
-					singlehue:["Blues","Greens","Greys","Oranges","Purples","Reds"],
-					diverging: ["BrBG","PiYG","PRGn","PuOr","RdBu","RdGy","RdYlBu","RdYlGn","Spectral"],
-					qualitative: ["Accent","Dark2","Paired","Pastel1","Pastel2","Set1","Set2","Set3"] };
+var schemeNames = {sequential: ["Rainbow"],
+					singlehue:["Reds","Blues","Greys"],
+					diverging: ["RdBuAz","RdBuOas","RdBuSky","MesaLeaf","MesaRiver","BloomLeaf","RdAsh"],
+					qualitative: ["Brand","BrandL"] };
 
 var visibleMap,
-	selectedScheme = "BuGn",
+	selectedScheme = "RdBu",
 	numClasses = 3;
 
 $("#num-classes").change(function(){
